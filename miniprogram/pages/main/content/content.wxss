@@ -1,0 +1,8 @@
+/* miniprogram/pages/main/content/content.wxss */
+
+.button-order{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 99;
+}

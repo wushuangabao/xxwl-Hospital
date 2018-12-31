@@ -1,0 +1,10 @@
+<!--miniprogram/pages/main/content/content.wxml-->
+<view>
+  <view wx:for="{{contents}}" class="con-item" bindtap="goToContent">
+    <view class="con-left">
+      <view class="con-title">{{item.title}}</view>
+      <view class="con-content">{{item.content}}</view>
+    </view>      
+      <image src='{{item.img_path}}' class="con-img" mode='aspectFit'></image>
+  </view>
+</view>
